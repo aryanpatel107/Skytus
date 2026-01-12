@@ -52,9 +52,70 @@ print("9:")
 text = input("Enter a string with spaces: ")
 print(text.strip())
 
-# Join a list of words into a single string 
+# Join a list of words into a single string with - between them
 print("10:")
 words = ["Python", "is", "easy"]
-sentence = " ".join(words)
+sentence = "-".join(words)
 print(sentence)
+
+
+# python string handaling code3.1
+
+
+
+
+# Create a list of your 5 favorite movies.
+print("1:")
+movies = ["Avatar", "Titanic", "Joker", "Inception", "Dangal"]
+print(movies)
+
+# Add a new movie to the list.
+print("2:")
+movies.append("Pathaan")
+print(movies)
+
+# Remove the first movie from the list.
+print("3:")
+movies.pop(0)
+print(movies)
+
+# Sort a list of numbers in ascending order.
+print("4:")
+numbers = [5, 2, 9, 1, 3]
+numbers.sort()
+print(numbers)
+
+# Reverse a list.
+print("5:")
+numbers.reverse()
+print(numbers)
+
+# Find the largest number in a list.
+print("6:")
+numbers = [10, 50, 30, 70, 20]
+print(max(numbers))
+
+# Merge two lists into one.
+print("7:")
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+new_list = list1 + list2
+print(new_list)
+
+# Access the last element of a list without using index number.
+print("8:")
+fruits = ["apple", "banana", "mango"]
+print(fruits[-1])
+
+
+# Create a nested list and access a specific inner element.
+print("9:")
+marks = [[10, 20, 30], [40, 50, 60]]
+print(marks[1][2])
+
+# Count how many times an element appears in a list.
+print("10:")
+numbers = [1, 2, 3, 2, 4, 2]
+print(numbers.count(2))
+
 
