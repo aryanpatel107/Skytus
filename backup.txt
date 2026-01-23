@@ -1,0 +1,4 @@
+This is the original file.
+It contains important data.
+This file will be used for backup.
+Python file handling example.
